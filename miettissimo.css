@@ -1,0 +1,142 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  margin: 0
+}
+
+header {
+  height: 30em;
+  position: relative;
+}
+
+.motto {
+  position: absolute;
+  top: 18rem;
+  right: 8rem;
+  font-size: 2rem;
+  width: 20rem;
+  text-align: right;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.miettissimo {
+  display: block;
+  margin: auto;
+}
+
+nav {
+  background: #fff;
+  display: flex;
+  box-shadow: 0 .1em .3em 1px rgba(0, 0, 0, .2);
+  margin-bottom: .3em;
+}
+
+nav a {
+  color: #333;
+  flex: 0 1 auto;
+  margin: .5em 1em;
+  text-transform: lowercase;
+  font-variant: small-caps;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+nav a:first-child {
+  flex: 1 0 auto;
+}
+
+h1,
+section .wrapper {
+  max-width: 50rem;
+  margin: 1.5rem auto 0;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+.technologie img {
+  float: right;
+  max-width: 400px;
+}
+
+.technologie {
+  overflow: auto;
+}
+
+.technologie,
+.capsules {
+  color: #fff;
+  background: black;
+  padding: 1.5em 0;
+}
+
+.capsules ul {
+  padding: 0;
+  margin: 0 -1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.capsules ul, .capsules li {
+  list-style-type: none;
+}
+
+.capsules li {
+  flex: 1 0 12em;
+  max-width: 12em;
+  padding: 1em;
+  margin: 1em;
+  color: #333;
+  background: white;
+}
+
+.capsules li img {
+  display: block;
+  margin: auto;
+}
+
+.capsules li h3 img {
+  display: inline;
+  margin: 0 .25em 0 0;
+  vertical-align: middle;
+  width: 20px;
+}
+
+.prix {
+  text-align: right;
+  font-weight: bold;
+}
+
+.capsules li h3 {
+  font-size: 1rem;
+  margin: 0;
+}
+
+footer {
+  padding: 1.5em 0
+}
+
+footer .logo {
+  max-width: 10rem;
+  display: block;
+  margin: auto;
+}
+
+footer .legal {
+  font-size: .75rem;
+  display: flex;
+  justify-content: center;
+}
+
+footer .legal a {
+  flex: 0 1 auto;
+  text-decoration: none;
+  color: #333;
+  margin: 2em;
+}
