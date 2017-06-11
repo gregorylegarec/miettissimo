@@ -101,6 +101,10 @@ p {
   margin: auto;
 }
 
+.capsules li h3 {
+  min-height: 3rem;
+}
+
 .capsules li h3 img {
   display: inline;
   margin: 0 .25em 0 0;
