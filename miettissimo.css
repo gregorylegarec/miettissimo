@@ -140,3 +140,58 @@ footer .legal a {
   color: #333;
   margin: 2em;
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  nav {
+    font-size: 2rem;
+  }
+
+  h1 img {
+    width: 90%;
+  }
+
+  header {
+    height: auto;
+  }
+
+  .motto {
+    position: static;
+    width: 90%;
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  .capsules li {
+    flex: 1 0 auto;
+    max-width: 90%;
+    width: 90%;
+  }
+
+  .capsules li,
+  .capsules li h3 {
+    font-size: 2rem;
+  }
+
+  .capsules li h3 img {
+    width: 2.5rem;
+    height: 2.5rem;
+    vertical-align: baseline;
+  }
+
+  .capsules li img {
+    width: 50%;
+  }
+
+  footer .logo {
+    max-width: inherit;
+  }
+
+  footer .legal {
+    width: 90%;
+    font-size: 2rem;
+  }
+
+  footer .legal a {
+    margin: 1em;
+  }
+}
